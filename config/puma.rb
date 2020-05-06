@@ -19,7 +19,7 @@ environment ENV["RAILS_ENV"] || "development"
 
 
 on_worker_boot do
-    ActiveRecord::Base..establish_connection
+    ActiveRecord::Base.establish_connection
 end
 # Specifies the `pidfile` that Puma will use.
 # コメントアウトに変更
