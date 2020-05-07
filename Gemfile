@@ -7,6 +7,7 @@ ruby '2.4.6'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 gem 'bootstrap-sass'
 gem 'devise',">=4.7.1"
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
