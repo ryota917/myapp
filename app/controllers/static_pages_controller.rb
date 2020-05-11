@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+    TestWorker.perform_async('起動!!')
   end
 
   def about 
